@@ -1,0 +1,7 @@
+id
+name
+class
+xpath
+cssSelector
+linktext
+text

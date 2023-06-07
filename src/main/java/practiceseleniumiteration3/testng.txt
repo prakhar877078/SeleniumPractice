@@ -1,0 +1,36 @@
+TestNG is a testing framework for Java that allows developers to write and run tests in a flexible and powerful way. 
+TestNG provides several annotations that help to control the behavior of test methods and the test suite. 
+Here are some commonly used TestNG annotations:
+
+@Test: This annotation is used to mark a method as a test method. 
+TestNG will execute all the methods marked with this annotation.
+
+@BeforeSuite: This annotation is used to mark a method that should be run before all tests in the suite.
+
+@AfterSuite: This annotation is used to mark a method that should be run after all tests in the suite.
+
+@BeforeTest: This annotation is used to mark a method that should be run before any test method 
+belonging to the current <test> tag in the testng.xml file.
+
+@AfterTest: This annotation is used to mark a method that should be run after all the test methods 
+belonging to the current <test> tag in the testng.xml file.
+
+@BeforeClass: This annotation is used to mark a method that should be run before the first test method 
+in the current class.
+
+@AfterClass: This annotation is used to mark a method that should be run after all the test methods 
+in the current class.
+
+@BeforeMethod: This annotation is used to mark a method that should be run before each test method.
+
+@AfterMethod: This annotation is used to mark a method that should be run after each test method.
+
+@DataProvider: This annotation is used to mark a method that provides data to a test method.
+
+@Parameters: This annotation is used to pass parameters to a test method.
+
+@Listeners: This annotation is used to attach listeners to the test class.
+
+@Factory: This annotation is used to create test classes dynamically.
+
+@Ignore: This annotation is used to skip a test method.

@@ -1,0 +1,65 @@
+Git - Git is a distributed version control management system which is used 
+to keep a track of all the soft source code changes that has been made on 
+the project over a period of time. 
+It is called as distributed Version Control System Why because any body in the 
+team can clone a repo in their local machine and can start working.
+
+Github - Github is a cloud based hosting service for software development and version control.
+
+As an automation test engineer, Git is an essential tool that you can use to manage your code, 
+collaborate with your team, and track changes to your automation test scripts.
+
+Here's an explanation of Git workflow with 2 easy examples to understand and bring in use in real-time projects:
+
+Example 1: Creating a new feature
+
+Let's say you are working on a new feature for your automation test suite. GIT Process follows:
+
+Before you start making changes, create a new branch to work on. This way, you can make 
+changes without affecting the main branch (usually called "master" or "main"). 
+Use the command "git checkout -b new-feature" to create a new branch called "new-feature" and switch to it.
+
+Now that you're on the new branch, you can make changes to your code.
+
+Write new test scripts, modify existing ones, or add new functions to your test framework.
+
+Once you've made some changes, it's time to commit them to the branch.
+
+Use the command "git add ." to stage all changes
+
+Use "git commit -m 'Add new feature'" to commit them with a descriptive message.
+
+Once you've committed your changes, you can push them to the remote repository using the command 
+"git push origin new-feature". This will create a new branch on the remote repository and upload your changes.
+
+Finally, create a pull request (PR) to merge your changes into the main branch. 
+This allows your team to review your changes, provide feedback, and ultimately approve or reject the changes. 
+You can create a PR from the Git hosting platform (e.g., GitHub, GitLab, Bitbucket) or using the command line.
+
+Once the PR is approved, your changes will be merged into the main branch.
+
+Example 2: Fixing a bug
+
+Let's say you've discovered a bug in your automation test suite and need to fix it. 
+Here's how you could use Git to manage the process:
+
+As before, create a new branch to work on. Use the command "git checkout -b bug-fix" 
+to create a new branch called "bug-fix" and switch to it.
+
+Before you start making changes, identify the root cause of the bug. This may involve running your test suite, 
+examining logs, or debugging your code.
+
+Once you've identified the problem, make the necessary changes to fix the bug. Use the command "git add ." 
+to stage your changes and "git commit -m 'Fix bug'" to commit them.
+
+#engineer As before, push your changes to the remote repository using the command "git push origin bug-fix".
+
+These are just two easy examples of how you could use Git workflow as an automation test engineer. 
+With Git, you can easily collaborate with your team, manage code changes, and ensure your automation 
+test suite runs smoothly.
+
+last point for 2nd example about PR: Finally, you would create a pull request to merge your changes 
+into the main branch. This time, however, you'll want to add more context to the PR, such as the steps 
+to reproduce the bug and the solution you implemented. This will help your team review your changes more 
+thoroughly and ensure that the bug is fully fixed. Once the PR is approved, your changes will be merged 
+into the main branch. That is how Git and such processes works. 
